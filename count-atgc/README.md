@@ -1,4 +1,4 @@
-## Contador de nucletotidos en secuencia proporcionada 
+## Contador de nucleotidos en secuencia proporcionada 
 
 ## Uso
 
