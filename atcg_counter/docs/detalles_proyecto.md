@@ -1,4 +1,4 @@
-# Sumador de Números en Archivo
+# Contador de nucleotidos
 
 Fecha: 11/04/2024
 
