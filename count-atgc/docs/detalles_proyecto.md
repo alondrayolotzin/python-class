@@ -55,6 +55,8 @@ Requsitos no funcionales
 3. Se imprimen los recuentos de nucleótidos
 	
 - **Flujos alternativos**:
-	
+1. El usuario no proporciona un archivo existente
+2. El usuario proporciona un archivo vacio
+3. etc.	
                 
 
