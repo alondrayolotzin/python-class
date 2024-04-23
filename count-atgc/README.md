@@ -3,6 +3,9 @@
 ## Uso
 
 El programa se utiliza para contar las ocurrencias de cada nucleótido (A, C, G, T) en una secuencia de ADN proporcionada en un archivo de texto.
+'''
+python count_atgc.py <archivo>
+'''
 
 ## Salida
 
