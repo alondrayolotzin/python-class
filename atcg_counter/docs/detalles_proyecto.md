@@ -1,6 +1,6 @@
 # Contador de nucleotidos
 
-Fecha: 11/04/2024
+Fecha: 22/04/2024
 
 **Participantes**:
 - Alondra Yolotzin Marquez Mendoza 
@@ -19,6 +19,8 @@ El proposito general del programa es proporcionar una herramienta que permita re
 - Debe permitir al usuario especificar la ubicación del archivo que contiene la secuencia de ADN a analizar.
 - Debe dar la opción para que el usuario especifique qué nucleótidos quiere contar. Esta funcionalidad es opcional, ya que si no hay especificación se contaran todos los nucleótidos 
 - Se debera producir un mensaje de error si el archivo no existe.
+- Se debera producir un mensaje de error si el archivo tiene caracteres invalidos
+- Se debera producir un mensaje de error si el archivo esta vacio
 - El output debera ser el conteo de nucleótidos, mostrando la cantidad de cada nucleótido y su porcentaje con respecto al total.
 
 **Requisitos no funcionales**
@@ -46,6 +48,7 @@ Función contar_nucleotidos(archivo, nucleotidos):
             Si el nucleótido está en la lista de nucleótidos:
                 Incrementar su recuento en el diccionario
                 Incrementar el contador total
+                Manejar excepcion de carácter invalido 
     Manejar excepción de archivo no encontrado
     Devolver el diccionario de recuentos y el contador total
 

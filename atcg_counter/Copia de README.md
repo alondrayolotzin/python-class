@@ -7,13 +7,14 @@ El programa cuenta los nucleótidos (A, T, G, C) en una secuencia de ADN conteni
 
 ## Salida
 
-El programa imprimirá el recuento de cada nucleótido presente en la secuencia de ADN, así como el porcentaje de cada nucleótido con respecto al total.
+El programa imprimirá el recuento de cada nucleótido presente en la secuencia de ADN. 
 
 ## Control de errores
 El programa maneja el control de los siguientes errores:
 
 - Si el archivo de secuencia no se encuentra, muestra un mensaje de error.
 - Si el archivo esta vacio o no contiene ninguno de los nucleótidos especificados, indica que no se encontraron nucleótidos en la secuencia.
+- Si la secuencia contenida en el archivo tiene caracteres no válidos, se imprimira un mensaje que indique caracter invalido
 
 ## Pruebas
 
@@ -23,6 +24,7 @@ Se han diseñado varios casos de prueba para validar el correcto funcionamiento 
 2. Prueba con un archivo de secuencia válido con todos los nucleótidos presentes
 3. Archivo de secuencia vacío
 4. Prueba con la especificación de nucleótidos a contar.
+5. Prueba con archivo que contenga caracteres que no sean nucleótidos 
 
 
 ## Datos

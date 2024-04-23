@@ -24,6 +24,10 @@ La ejecución exitosa de estos casos de prueba es esencial para confirmar que el
 - Datos de entrada: nucleotide_counter.py <archivo_valido.txt> -n A T
 - Resultado esperado: Recuento de los nucleótidos A y T con sus porcentajes.
 
+### Caso de prueba 5: Archivo con caracteres invalidos
+- Descripción: Verificar si los caracteres en un archivo son válidos
+- Datos de entrada: nucleotide_counter.py <archivo_concaracteresinvalidos.txt>
+- Resultado esperado: Se emprimira un error que diga "invalid character" 
 
 
 
